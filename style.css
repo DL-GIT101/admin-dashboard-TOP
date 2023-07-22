@@ -40,7 +40,11 @@ header > .search > img {
 }
 
 header > .search > input {
-    
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color-gray);
+    height: 2rem;
+    padding-left: 1rem;
 }
 
 .header .account {
