@@ -4,6 +4,11 @@
     --color-black: rgb(29, 29, 31);
 }
 
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .container {
     background-color: var(--color-gray);
     display: grid;
@@ -13,6 +18,41 @@
 header {
     background-color: var(--color-white);
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 2fr 3fr;
+    gap: 30px;
+}
+
+header img {
+    width: 50px;
+}
+
+header > .search {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    gap: 20px;
+    align-items: center;
+}
+
+header > .search > img {
+    
+}
+
+header > .search > input {
+    
+}
+
+.header .account {
+
+}
+
+.header .profile {
+
+}
+
+.header .actions {
+
 }
 
 .sidebar {
