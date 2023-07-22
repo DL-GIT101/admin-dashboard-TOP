@@ -94,7 +94,43 @@ header .profile  > .introduction > p:nth-child(2){
 }
 
 header .actions {
+    display: grid;
+}
 
+header .actions > ul {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+}
+
+header .actions > ul > li{
+    font-weight: 600;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+    width: 100px;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+header .actions > ul > li:first-child{
+    align-self: center;
+    justify-self: end;
+}
+
+header .actions > ul > li:nth-child(2){
+    place-self: center;
+}
+
+header .actions > ul > li:last-child{
+    align-self: center;
+    justify-self: start;
+}
+
+header .actions > ul > li > a{
+    color: var(--color-white);
+    text-decoration: none;
 }
 
 .sidebar {
