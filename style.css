@@ -1,0 +1,27 @@
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-gray: rgb(245, 245, 247);
+    --color-black: rgb(29, 29, 31);
+}
+
+.container {
+    background-color: var(--color-gray);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+header {
+    background-color: var(--color-white);
+    grid-column: 2 / 3;
+}
+
+.sidebar {
+    background-color: var(--color-black);
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+main {
+    background-color: var(--color-gray);
+    grid-column: 2 / 3;
+}
