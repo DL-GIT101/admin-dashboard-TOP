@@ -47,15 +47,31 @@ header > .search > input {
     padding-left: 1rem;
 }
 
-.header .account {
+header .account {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+header .account > img:first-child{
+    align-self: center;
+    justify-self: end;
+}
+
+header .account > img:nth-last-child(2){
+    place-self: center;
+}
+
+header .account > p{
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+header .profile {
 
 }
 
-.header .profile {
-
-}
-
-.header .actions {
+header .actions {
 
 }
 
