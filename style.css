@@ -70,7 +70,27 @@ header .account > p{
 header .profile {
     display: grid;
     grid-template-columns: 1fr 9fr;
-    gap: 20px;
+}
+
+header .profile  > img{
+    width: 100px;
+    align-self: center;
+    justify-self: end;
+    padding-left: 20px;
+}
+
+header .profile  > .introduction{
+    align-self: center;
+    font-weight: 600;
+}
+
+header .profile  > .introduction > p:first-child{
+    margin-bottom: 0.5rem;
+}
+
+header .profile  > .introduction > p:nth-child(2){
+    font-size: 2rem;
+    margin: 0 0 0.5rem;
 }
 
 header .actions {
