@@ -36,7 +36,7 @@ header > .search {
 }
 
 header > .search > img {
-    
+    justify-self: end;
 }
 
 header > .search > input {
