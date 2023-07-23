@@ -64,27 +64,26 @@ header .account > p{
 header .profile {
     display: grid;
     grid-template-columns: 1fr 9fr;
+    align-items: center;
 }
 
 header .profile  > svg{
     width: 100px;
     height: 100px;
-    align-self: center;
     justify-self: end;
     padding-left: 20px;
 }
 
 header .profile  > .introduction{
-    align-self: center;
     font-weight: 600;
 }
 
-header .profile  > .introduction > p:first-child{
+header .profile  > .introduction > .greeting{
     margin-bottom: 0.5rem;
 }
 
-header .profile  > .introduction > p:nth-child(2){
-    font-size: 2rem;
+header .profile  > .introduction > .profile-name{
+    font-size: 1.5rem;
     margin: 0 0 0.5rem;
 }
 
