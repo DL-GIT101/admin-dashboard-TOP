@@ -224,6 +224,27 @@ main .announcements > .message-board > .message > .body{
     color:gray
 }
 
-.main .trending {
-    
+main .trending > .profiles-board {
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 15px;
 }
+
+main .trending > .profiles-board > .profile{
+   display: grid;
+   grid-template-columns: 1fr 9fr;
+}
+
+main .trending > .profiles-board > .profile > svg{
+    align-self: center;
+    justify-self: end;
+ }
+
+ main .trending > .profiles-board > .profile > .description > .name{
+    margin-bottom: 0.5rem;
+ }
+
+ main .trending > .profiles-board > .profile > .description > .bio{
+    margin: 0 0 0.5rem;
+    color: gray;
+ }
