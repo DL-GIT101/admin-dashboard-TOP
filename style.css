@@ -208,8 +208,20 @@ main .projects > .cards-container > .card > .actions > svg{
     height: 2rem;
 }
 
-main .announcements {
-   
+main .announcements > .message-board{
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+main .announcements > .message-board > .message > .title{
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+main .announcements > .message-board > .message > .body{
+    margin-top: 0;
+    color:gray
 }
 
 .main .trending {
